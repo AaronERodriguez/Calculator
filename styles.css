@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(63, 63, 63);
+}
+.calculator {
+    background-color: gray;
+    width: 30vw;
+    height: 70vh;
+    border-radius: 4px;
+    padding: 5vh 2vw;
+    margin: auto
+}
+.button-grid {
+    display: grid;
+    grid-template-areas: 
+    "seven eight nine del ac"
+    "four five six times divide"
+    "one two three plus minus"
+    "zero zero decimal equals equals";
+    width: 30vw;
+    height: 50vh;
+}
+button {
+    font-size: larger;
+    font-weight: bold;
+    border-width: 5px;
+}
+.one {
+    grid-area: one;
+}
+.two {
+    grid-area: two;
+}
+.three {
+    grid-area: three;
+}
+.four {
+    grid-area: four;
+}
+.five {
+    grid-area: five;
+}
+.six {
+    grid-area: six;
+}
+.seven {
+    grid-area: eight;
+}
+.nine {
+    grid-area: nine;
+}
+.zero {
+    grid-area: zero;
+}
+.decimal {
+    grid-area: decimal;
+    font-size: xx-large;
+}
+.del {
+    grid-area: del;
+}
+.ac {
+    grid-area: ac;
+}
+.plus {
+    grid-area: plus;
+}
+.minus {
+    grid-area: minus;
+}
+.times {
+    grid-area: times;
+}
+.divide {
+    grid-area: divide;
+}
+.equals {
+    grid-area: equals;
+    font-size: xx-large;
+}
+.operation {
+    background-color: orange;
+}
+.screen {
+    width: 30vw;
+    height: 20vh;
+    border-radius: 4px;
+    background-color: darkslategrey;
+}
+.topText {
+    color: gainsboro;
+    padding-left: 10px;
+    overflow-wrap: break-word;
+    overflow-y: scroll;
+    height: 30%;
+}
+.botText {
+    color: white;
+    font-size: 40px;
+    padding-left: 10px;
+    overflow-wrap: break-word;
+    overflow-y: scroll;
+    height: 55%;
+}

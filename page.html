@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="calculator" id="calculator">
+        <div class="screen"><h2 class="topText" id="topText">1</h2><h1 class="botText" id="botText">0</h1></div>
+        <div class="button-grid">
+            <button class="del" onclick="del()">DEL</button>
+            <button class="ac" onclick="clearText()">AC</button>
+            <button class="one" onclick="pressNumber('1')">1</button>
+            <button class="two" onclick="pressNumber('2')">2</button>
+            <button class="three" onclick="pressNumber('3')">3</button>
+            <button class="four" onclick="pressNumber('4')">4</button>
+            <button class="five" onclick="pressNumber('5')">5</button>
+            <button class="six" onclick="pressNumber('6')">6</button>
+            <button class="seven" onclick="pressNumber('7')">7</button>
+            <button class="eight" onclick="pressNumber('8')">8</button>
+            <button class="nine" onclick="pressNumber('9')">9</button>
+            <button class="zero" onclick="pressNumber('0')">0</button>
+            <button class="decimal" onclick="pressNumber('.')">.</button>
+            <button class="plus operation" onclick="operatorBut('+')">+</button>
+            <button class="minus operation" onclick="operatorBut('-')">-</button>
+            <button class="times operation" onclick="operatorBut('*')">X</button>
+            <button class="divide operation" onclick="operatorBut('/')">/</button>
+            <button class="equals operation" onclick="equalBut()">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
